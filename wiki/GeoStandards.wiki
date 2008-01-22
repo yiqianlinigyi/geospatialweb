@@ -7,7 +7,7 @@ Here is a collection of standards and specifications for represenatation of GIS 
 
 = Details =
 
-[wsgs rdf mapping http://www.w3.org/2003/01/geo/wgs84_pos#]
+[http://www.w3.org/2003/01/geo/wgs84_pos# wsgs rdf mapping ]
 
 [http://microformats.org/wiki/geo microformats] 
 may be a common source of RDF data.  They reference RFC2426.
