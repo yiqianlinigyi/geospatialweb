@@ -14,4 +14,4 @@ may be a common source of RDF data.  They reference RFC2426.
 [http://www.georss.org/xml/1.1/georss.xsd GeoRSS] is probably the most widely deployed standard for expressing gis data.  It is supported on MS live.  (Google oddly, created their own, KML)
 
 
-[http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/ The GeoSpacial working group]  has proposed an [http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/W3C_XGR_Geo_files/geo_2007.owl OWL specification] based on top of GeoRss.
+[http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/ The GeoSpacial working group]  has proposed an [http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/W3C_XGR_Geo_files/geo_2007.owl OWL specification] based on top of [http://www.georss.org/xml/1.1/georss.xsd GeoRSS].
