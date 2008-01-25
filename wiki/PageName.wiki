@@ -1,0 +1,17 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+
+getDistanceSpheroid between two point on a spherical projection
+
+Haversin formula
+
+[http://upload.wikimedia.org/math/c/5/5/c55325528c6255023dec147924402a94.png]
+
+http://en.wikipedia.org/wiki/Haversine_formula
