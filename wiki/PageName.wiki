@@ -8,7 +8,10 @@ Add your content here.
 = Details =
 
 
-getDistanceSpheroid between two point on a spherical projection
+==getDistanceSpheroid==
+
+
+Compute the distance between two points on a spherical projection
 
 Haversin formula
 
