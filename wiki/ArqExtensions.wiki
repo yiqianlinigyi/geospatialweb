@@ -1,10 +1,9 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
+#summary nearby(lat lon limit) extension fuction for ARQ
 
 || *Function name*|| *Description* ||
 || geo:nearby(lat lon limit) || find nodes nearest to the given latitude and longitude ||
 
+= Introduction =
 
 = geo:nearby =
 The geo:nearby SPARQL extension provides users with the ability to 
