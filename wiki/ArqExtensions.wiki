@@ -4,6 +4,7 @@
 || geo:nearby(lat lon limit) || find nodes nearest to the given latitude and longitude ||
 
 = Introduction =
+Much of what we call the semanic web has a strong geo spatial component.
 
 = geo:nearby =
 The geo:nearby SPARQL extension provides users with the ability to 
