@@ -1,7 +1,8 @@
 #summary nearby(lat lon limit) extension fuction for ARQ
 
 || *Function name*|| *Description* ||
-|| geo:nearby(lat lon limit) || find nodes nearest to the given latitude and longitude ||
+|| ext:nearby(lat lon limit) || find nodes nearest to the given latitude and longitude ||
+|| ext:nearby(?var) || find nodes nearest to ?var.  This assumes ?var has geo:lat and geo:long properties (wc3 geo) ||
 
 = Introduction =
 Much of what we call the semanic web has a strong geo spatial component.
