@@ -8,7 +8,9 @@ Add your content here.
 = Details =
 Before using the geospation jena extensions you'll first need to create an index of your RDF model.
 
+{{{
 IStorageManager store = SpatialIndex.createMemoryStorageManager();                
 RTree rtree = new RTree(props(), store);
 Indexer i = new Indexer(rtree);
 i.createIndex(m); 
+}}}
