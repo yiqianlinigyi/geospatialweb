@@ -1,12 +1,11 @@
-#summary One-sentence summary of this page.
+#summary creating a spatial index against your model.
 
 = Introduction =
 
-Add your content here.
-
+Before using the geospatial [http://jena.sourceforge.net/ARQ/ ARQ] extensions first create an index of your RDF model.
 
 = Details =
-Before using the geospatial [http://jena.sourceforge.net/ARQ/ ARQ] extensions first create an index of your RDF model.  This snippet creates an index, that by default will assume you are asking it to find RDF nodes with the w3c's geo:lat and geo:long properties.
+ This snippet creates an index, that by default will assume you are asking it to find RDF nodes with the w3c's geo:lat and geo:long properties.
 
 {{{
 1: IStorageManager store = SpatialIndex.createMemoryStorageManager();                
