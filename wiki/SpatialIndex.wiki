@@ -37,7 +37,7 @@ In our query we have three namespaces.  Assuming you are familiar with SPARQL th
 }}}
 In English, find nodes near city ?c, limiting the results to 20.  The last important item outside standard ARQ is line 4.  Here we set the the index into our query context.  Only then is the extension function able to find the index.  Note that you can create several indexes and use them as needed.
 
-As stated above, the indexer defaults to indexing nodes with geo:lat and geo:long, however, you can change how the indexer behaves by providin it with a custome SPARQL query.  This is the default query:
+As stated above, the indexer defaults to indexing nodes with geo:lat and geo:long, however, you can change how the indexer behaves by providing it with a custome SPARQL query.  This is the default query:
 {{{
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT ?s ?lat ?lon
