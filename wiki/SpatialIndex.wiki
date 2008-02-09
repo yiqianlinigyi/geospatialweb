@@ -6,8 +6,9 @@ Add your content here.
 
 
 = Details =
+Before using the geospation jena extensions you'll first need to create an index of your RDF model.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+IStorageManager store = SpatialIndex.createMemoryStorageManager();                
+RTree rtree = new RTree(props(), store);
+Indexer i = new Indexer(rtree);
+i.createIndex(m); 
