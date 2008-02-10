@@ -8,13 +8,12 @@ Before using the geospatial [http://jena.sourceforge.net/ARQ/ ARQ] extensions fi
  This snippet creates an index, that by default will assume you are asking it to find RDF nodes with the w3c's geo:lat and geo:long properties.
 
 {{{
-1: IStorageManager store = SpatialIndex.createMemoryStorageManager();                
-2: RTree rtree = new RTree(props(), store);
-3: Indexer i = new Indexer(rtree);
-4: i.createIndex(m); 
+OntModel m = ...
+Indexer i = Indexer.createDefaultIndexer();
+i.createIndex(m);
 }}}
-
-Line 1 creates a store for the index.  File based stores are possible, however, the simplest way to get started is with an in memory index.  Line two creates the RTree attached to the store.  If you are familiar with RTrees you can set certain configurations on it.  Line 3 creates an Indexer.  Finally, line 4 instructs the Indexer to create an index against Jena model "m".  The indexer will look at your model and find all nodes with both a geo:lat and geo:long property and add them to the index.  If you want to only index a subset of your graph there's a way, and we'll look at that later.  Now we are ready to perform a sparql QUERY:
+The first line creates a jena model.  There are many ways and we'll assume you're familiar with Jena.
+Finally, line 3 instructs the Indexer to create an index against Jena model "m".  The indexer will look at your model and find all nodes with both a geo:lat and geo:long property and add them to the index.  If you want to only index a subset of your graph there's a way, and we'll look at that later.  Now we are ready to perform a sparql QUERY:
 
 {{{
 1: String queryString = "PREFIX : <http://example.org/>"
