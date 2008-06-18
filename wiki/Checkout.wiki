@@ -8,7 +8,8 @@ Add the subversion repository to your development IDE.
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* check out project geospatialweb into workspace
+* check out project jenaext into workspace
+
+Run the test
+geospatialweb.src.test.TestGeoSpatialAPI
