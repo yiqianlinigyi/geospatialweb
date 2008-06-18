@@ -8,7 +8,7 @@ Add the subversion repository to your development IDE.
 
 = Details =
 
-check out project geospatialweb into workspace
+check out the project/folder *geospatialweb* into your workspace
 
 Run the test
 geospatialweb.src.test.TestGeoSpatialAPI
