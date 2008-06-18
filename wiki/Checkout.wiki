@@ -10,8 +10,6 @@ Add the subversion repository to your development IDE.
 
 check out project geospatialweb into workspace
 
-check out project jenaext into workspace
-
 Run the test
 geospatialweb.src.test.TestGeoSpatialAPI
 
