@@ -2,12 +2,6 @@
 
 = Introduction =
 
-Add the subversion repository to your development IDE.
-
-[http://code.google.com/p/geospatialweb/source/checkout http://code.google.com/p/geospatialweb/source/checkout]
-
-= Details =
-
 check out the project/folder *geospatialweb* into your workspace
 
 Run the test
